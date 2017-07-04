@@ -1,0 +1,117 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cdrundle.cdc</groupId>
+  <artifactId>rd-file-api</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>文件系统平台</name>
+	<url>http://www.cdrundle.com</url>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<rd-develop-common.version>1.0.3-RELEASE</rd-develop-common.version>
+		<rd-auth-api.version>1.0.3-SNAPSHOT</rd-auth-api.version>
+		<hibernate.version>5.0.7.Final</hibernate.version>
+		<dubbo.version>2.4.10</dubbo.version>
+		<zkclient.version>0.1</zkclient.version>
+		<zookeeper.version>3.4.6</zookeeper.version>
+		<maven-jar-plugin.version>2.5</maven-jar-plugin.version>
+		<maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
+		<maven-surefire-plugin.version>2.19</maven-surefire-plugin.version>
+		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.cdrundle</groupId>
+			<artifactId>rd-develop-common</artifactId>
+			<version>${rd-develop-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.cdrundle.cdc</groupId>
+			<artifactId>rd-auth-api</artifactId>
+			<version>${rd-auth-api.version}</version>
+		</dependency>
+		<!-- Dubbo -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>${dubbo.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.github.sgroschupf</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>${zkclient.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.zookeeper</groupId>
+					<artifactId>zookeeper</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>${zookeeper.version}</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>${project.artifactId}-${project.version}</finalName>
+		<!-- 所有module 统一使用的插件 -->
+		<plugins>
+			<!-- java 编译插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<!-- 测试插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<!-- 跳过测试 -->
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+			<!-- jar打包插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven-jar-plugin.version}</version>
+			</plugin>
+			<!-- deploy插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>${maven-deploy-plugin.version}</version>
+			</plugin>
+	</plugins>
+	</build>
+	<distributionManagement>
+		<!-- deploy 到公司私服配置 -->
+		<repository>
+			<id>internal</id>
+			<name>cdrundle-internal</name>
+			<url>http://repo.cdrundle.com/repository/internal/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>cdrundle-snapshots</name>
+			<url>http://repo.cdrundle.com/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

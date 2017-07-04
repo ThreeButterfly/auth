@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/cdc-drug/!svn/ver/5113/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service
+END
+dubbo-auth-consumer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/cdc-drug/!svn/ver/5113/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/dubbo-auth-consumer.xml
+END
+IPrivilegeAuthApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/cdc-drug/!svn/ver/5113/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/IPrivilegeAuthApi.java
+END
+ITokenAuthApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/cdc-drug/!svn/ver/4449/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/ITokenAuthApi.java
+END

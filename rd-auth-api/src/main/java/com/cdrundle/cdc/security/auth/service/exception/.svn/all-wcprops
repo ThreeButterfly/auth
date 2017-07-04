@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/cdc-drug/!svn/ver/5113/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception
+END
+TokenAuthException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/TokenAuthException.java
+END
+GenerateTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/GenerateTokenException.java
+END
+UserOrPasswordWrongException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/UserOrPasswordWrongException.java
+END
+AuthMessageRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/cdc-drug/!svn/ver/3842/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/AuthMessageRepository.java
+END
+TokenTimeOutException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/TokenTimeOutException.java
+END
+WrongAppKeyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/cdc-drug/!svn/ver/3842/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/WrongAppKeyException.java
+END
+TokenExpiredException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/TokenExpiredException.java
+END
+IpIllegalException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/IpIllegalException.java
+END
+OnlyOneLoginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/OnlyOneLoginException.java
+END
+NoPrivilegeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/cdc-drug/!svn/ver/5113/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/NoPrivilegeException.java
+END
+auth_message.properties
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/cdc-drug/!svn/ver/3842/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/auth_message.properties
+END
+RemoveTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/RemoveTokenException.java
+END
+TokenNotExistException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/TokenNotExistException.java
+END
+UserStatusException.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/UserStatusException.java
+END
+TokenInvalidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/cdc-drug/!svn/ver/3820/cdc/2.0/auth-platform/rd-auth-api/src/main/java/com/cdrundle/cdc/security/auth/service/exception/TokenInvalidException.java
+END

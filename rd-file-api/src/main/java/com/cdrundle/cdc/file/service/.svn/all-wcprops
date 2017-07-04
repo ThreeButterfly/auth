@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cdc-drug/!svn/ver/5256/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service
+END
+dubbo-file-consumer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/cdc-drug/!svn/ver/5256/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/dubbo-file-consumer.xml
+END
+IFileApi2.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/cdc-drug/!svn/ver/5324/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/IFileApi2.java
+END
+IFileApi.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/cdc-drug/!svn/ver/5558/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/IFileApi.java
+END

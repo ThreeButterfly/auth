@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/cdc-drug/!svn/ver/5256/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception
+END
+NoAppKeyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/cdc-drug/!svn/ver/5415/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/NoAppKeyException.java
+END
+FileDownloadFailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/cdc-drug/!svn/ver/5256/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/FileDownloadFailException.java
+END
+service_message.properties
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/cdc-drug/!svn/ver/5415/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/service_message.properties
+END
+FileParmFailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/cdc-drug/!svn/ver/5418/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/FileParmFailException.java
+END
+ServicePlatformMessageRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/cdc-drug/!svn/ver/5415/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/ServicePlatformMessageRepository.java
+END
+DeleteFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/cdc-drug/!svn/ver/5421/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/DeleteFileException.java
+END
+FileGetFailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/cdc-drug/!svn/ver/5418/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/FileGetFailException.java
+END
+NoTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/cdc-drug/!svn/ver/5415/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/NoTokenException.java
+END
+NoFileIDException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/cdc-drug/!svn/ver/5418/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/NoFileIDException.java
+END
+FileMessageRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/cdc-drug/!svn/ver/5421/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/FileMessageRepository.java
+END
+FileUploadFailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/cdc-drug/!svn/ver/5256/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/FileUploadFailException.java
+END
+file_message.properties
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/cdc-drug/!svn/ver/5421/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/file_message.properties
+END
+NoFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/cdc-drug/!svn/ver/5418/cdc/2.0/file-platform/rd-file-api/src/main/java/com/cdrundle/cdc/file/service/exception/NoFileException.java
+END
